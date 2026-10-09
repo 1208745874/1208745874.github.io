@@ -53,3 +53,19 @@ body {
 .back-to-top:hover {
   background-color: #1a252f; /* 悬停时加深一点颜色 */
 }
+
+/* 删掉之前的 .paginator, .pagination，换成这个 */
+.pagination-wrapper {
+  text-align: center;     /* 让文字和链接居中 */
+  margin: 2rem 0;         /* 上下留出间距 */
+  max-width: 720px;       /* 和文章卡片一样的宽度 */
+  margin-left: auto;      /* 水平居中 */
+  margin-right: auto;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: var(--primary);
+  color: white;
+}
