@@ -69,3 +69,12 @@ body {
   background: var(--primary);
   color: white;
 }
+
+
+.pagination-wrapper {
+  text-align: center;     /* 让文字和链接居中 */
+  margin: 2rem 0;         /* 上下留出间距 */
+  max-width: 720px;       /* 和文章卡片一样的宽度 */
+  margin-left: auto;      /* 水平居中 */
+  margin-right: auto;
+}
